@@ -1,0 +1,75 @@
+/* VARIABLES */
+
+:root {
+  --fuentePrincipal: 'Poppins', sans-serif;;
+  
+  --gris: #343A40;
+  --blanco: #fff;
+  --negro: #000000;
+  --primario: #6834a6;
+}
+
+/* RESET */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  font-family: var(--fuentePrincipal);
+}
+
+/* GLOBALES */
+
+h1,
+h2,
+h3 {
+  font-weight: 900;
+  margin: 2rem 0;
+  
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 4.6rem;
+}
+h3 {
+  font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.contenedor {
+  max-width: 120rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header{
+    background-image: url(../img/header_bg.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+@media (min-width: 768px){
+    .header__barra{
+        display: flex;
+        justify-content: space-between;
+    }
+}
